@@ -230,7 +230,8 @@ let s:colors = {
   \ 'green'       : "8FAA54",
   \ 'green2'      : "6CAC22",
   \ 'lightGreen'  : "31B53E",
-  \ 'white'       : "FFFFFF"
+  \ 'white'       : "FFFFFF",
+  \ 'cyan'        : "00BCD4"
 \ }
 
 let s:match_colors = {
@@ -245,9 +246,12 @@ let s:match_colors = {
   \ '\.module'                    : 'red2',
   \ 'app/'                        : 'lightRed',
   \ 'assets/'                     : 'yellow',
+  \ 'services/'                   : 'yellow',
   \ 'environments/'               : 'green',
   \ 'e2e/'                        : 'blue',
   \ 'src/'                        : 'green',
+  \ 'components/'                 : 'cyan',
+  \ 'models/'                     : 'red2',
   \ '(angular|jquery|backbone|require|materialize|mootools|gruntfile|gulpfile)@<!\.js$' : 'beige',
   \ '\.dart$'                     : 'blue',
   \ '\.fsscript$'                 : 'blue',
